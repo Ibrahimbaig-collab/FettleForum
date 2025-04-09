@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/Css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- nav section -->
+  <header class="sticky-top">
+       <nav class="navbar navbar-expand-lg navbar-light bg-black py-3 p-0 p-lg-4 font-set2 ">
+
+      <div class="container">
+        <img src="assets/images/logo.png" width="200px" class="" alt="error">
+        <button class="navbar-toggler d-none d-md-block" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon d-lg-none"></span>
+        </button>
+
+        <!-- for md device toogle -->
+        <button class="navbar-toggler bg-transparent form-control border-0 shadow-none px-0 w-auto text-light" type="button"
+          data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <!-- Off-Canvas Menu -->
+        <div class="offcanvas offcanvas-end d-lg-none" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+          <div class="offcanvas-header">
+            <button type="button" class="text-reset fw-bold small position-absolute mb-2 mt-1 border-0"
+              data-bs-dismiss="offcanvas"><i class="fa fa-times"></i></button>
+          </div>
+          <div class="offcanvas-body p-0">
+            <img src="assets/images/logo-2.png" class="img-fluid" alt="">
+
+            <ul class="navbar-nav fw-bold font-set text-center">
+              <li class="nav-item border-top border-black">
+                <a class="nav-link" href="#">Travel</a>
+              </li>
+              <li class="nav-item border-top  border-black">
+                <a class="nav-link" href="#">Food</a>
+              </li>
+              <li class="nav-item border-top  border-black">
+                <a class="nav-link" href="#"> Beauty And Skincare</a>
+              </li>
+              <li class="nav-item border-top  border-black">
+                <a class="nav-link" href="#"> Fitness</a>
+              </li>
+              <li class="nav-item border-top  border-black">
+                <a class="nav-link" href="#">Health</a>
+              </li>
+              <li class="nav-item border-top border-bottom border-black">
+                <a class="nav-link" href="#">LifeStyle</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- end -->
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav gap-5 fw-bold mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#">Travel</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Food</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Beauty and Skincare</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Fitness</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Health</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">LifeStyle</a>
+            </li>
+
+
+          </ul>
+        </div>
+        <!-- search bar -->
+        <div class=" text-white d-none d-md-block position-relative">
+          | <i id="searchIcon" class=" fa-icon fa-solid fa-magnifying-glass ms-0 ms-lg-3" onclick="toggleSearch()"></i>
+          <input type="text" id="searchBar" class="box-search position-absolute bottom-2 end-0 me-5"
+            placeholder="Search..." onkeyup="showSuggestions()">
+          <div class="position-absolute end-100 top-100 h-100 d-none" id="getdata" style="width: 216px;">
+            <ul class="list-unstyled bg-black p-2">
+              <li>
+                <p class="me-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </li>
+              <li>
+                <p class="me-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </li>
+              <li>
+                <p class="me-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </li>
+              <li>
+                <p class="me-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- end Search -->
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!-- Blog Section -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 col-sm-8">
+              <div class="">
+                <h1 class="mt-5 mb-5 fw-bolder set">Travel</h1>
+                <img src="assets/images/tr-1.png" class="img-fluid w-100" alt="error">
+                <div class="border border-light p-2 set">
+
+                  <div class="d-flex align-items-center">
+                    <img src="assets/images/con-1.png" width="45px" class="img-fluid me-2" alt="">
+                    <div class="d-flex flex-column">
+                      <p class="mb-0">admin <i class="fas"></i></p>
+                      <p class="mb-0">2025-03-28 04:22:18</p>
+                    </div>
+                  </div>
+                  <h2 class="mt-3 mb-3">Shop Smart and Save Big with Temu – Your One-Stop Shopping Destination</h2>
+                  <p>Discover the best deals on Temu! Shop fashion, home essentials, gadgets & more at unbeatable
+                    prices.
+                    Use a Temu Coupon Code for extra savings today!</p>
+                  <a href="#" class="text-decoration-none text-black">Continue Reading. . .</a>
+                  <hr>
+                  <p class="mb-5">81 <i class="fa-solid fa-eye"></i>
+                  </p>
+                </div>
+              </div>
+              <!-- 2nd -->
+              <div class="mt-5">
+                <img src="assets/images/tr-2.jpg" class="img-fluid  w-100" alt="error">
+                <div class="border border-light p-2 set">
+
+                  <div class="d-flex align-items-center">
+                    <img src="assets/images/con-1.png" width="45px" class="img-fluid me-2" alt="">
+                    <div class="d-flex flex-column">
+                      <p class="mb-0">Ghufran <i class="fas"></i></p>
+                      <p class="mb-0">2025-03-28 04:22:18</p>
+                    </div>
+                  </div>
+                  <h2 class="mt-3 mb-3">Discover Affordable Style and Innovation with Saramart</h2>
+                  <p>Saramart is your one-stop shop for affordable fashion, stylish smart watches, and must-have
+                    gadgets.
+                    Discover budget-friendly shopping with worldwide delivery and exciting daily discounts.</p>
+                  <a href="#" class="text-decoration-none text-black">Continue Reading. . .</a>
+                  <hr>
+                  <p class="mb-5">81 <i class="fa-solid fa-eye"></i></p>
+                </div>
+              </div>
+              <!-- 3rd -->
+              <div class="mt-5">
+                <img src="assets/images/tr-3.png" class="img-fluid w-100" alt="error">
+                <div class="border border-light p-2 set">
+
+                  <div class="d-flex align-items-center">
+                    <img src="assets/images/con-1.png" width="45px" class="img-fluid me-2" alt="">
+                    <div class="d-flex flex-column">
+                      <p class="mb-0">Ghufran <i class="fas"></i></p>
+                      <p class="mb-0">2025-03-28 04:22:18</p>
+                    </div>
+                  </div>
+                  <h2 class="mt-3 mb-3">Hooga Health – The Ultimate Source for Red Light Therapy</h2>
+                  <p>Explore Hooga Health’s advanced red light therapy devices and wellness solutions. Improve your
+                    health,
+                    skin, and energy naturally with FDA-approved, high-quality products. Shop now for a brighter,
+                    healthier
+                    you!</p>
+                  <a href="#" class="text-decoration-none text-black">Continue Reading. . .</a>
+                  <hr>
+                  <p class="mb-5">128 <i class="fa-solid fa-eye"></i></p>
+                </div>
+              </div>
+              <!-- 4th -->
+              <div class="mt-5">
+                <img src="assets/images/tr-4.png" class="img-fluid w-100" alt="error">
+                <div class="border border-light p-2 set">
+
+                  <div class="d-flex align-items-center">
+                    <img src="assets/images/con-1.png" width="45px" class="img-fluid me-2" alt="">
+                    <div class="d-flex flex-column">
+                      <p class="mb-0">Ghufran <i class="fas"></i></p>
+                      <p class="mb-0">2025-03-28 04:22:18</p>
+                    </div>
+                  </div>
+                  <h2 class="mt-3 mb-3">Power Up Your Life with ALLPOWERS – The Ultimate Solution for Portable Energy
+                  </h2>
+                  <p>Discover reliable portable power solutions with ALLPOWERS. From compact power stations to efficient
+                    solar panels and generators, stay powered up at home, outdoors, or on the go. Shop top energy
+                    solutions
+                    today!</p>
+                  <a href="#" class="text-decoration-none text-black">Continue Reading. . .</a>
+                  <hr>
+                  <p class="mb-5">128 <i class="fa-solid fa-eye"></i></p>
+                </div>
+              </div>
+              <!-- 5th -->
+              <div class="mt-5">
+                <img src="assets/images/tr-5.png" class="img-fluid w-100" alt="error">
+                <div class="border border-light p-2 set">
+
+                  <div class="d-flex align-items-center">
+                    <img src="assets/images/con-1.png" width="45px" class="img-fluid me-2" alt="">
+                    <div class="d-flex flex-column">
+                      <p class="mb-0">Ghufran <i class="fas"></i></p>
+                      <p class="mb-0">2025-03-28 04:22:18</p>
+                    </div>
+                  </div>
+                  <h2 class="mt-3 mb-3">Unlock the Power of Red Light Therapy with Optimal Red Light</h2>
+                  <p>Discover the power of Optimal Red Light therapy for improved skin, muscle recovery, and overall
+                    wellness. Explore top-quality devices designed to help you feel and look your best. Shop now!</p>
+                  <a href="#" class="text-decoration-none text-black">Continue Reading. . .</a>
+                  <hr>
+                  <p class="mb-5">128 <i class="fa-solid fa-eye"></i></p>
+                </div>
+              </div>
+              <!-- 6th -->
+              <div class="mt-5">
+                <img src="assets/images/tr-6.png" class="img-fluid w-100" alt="error">
+                <div class="border border-light p-2 set">
+                  <div class="d-flex align-items-center">
+                    <img src="assets/images/con-1.png" width="45px" class="img-fluid me-2" alt="">
+                    <div class="d-flex flex-column">
+                      <p class="mb-0">Ghufran <i class="fas"></i></p>
+                      <p class="mb-0">2025-03-28 04:22:18</p>
+                    </div>
+                  </div>
+                  <h2 class="mt-3 mb-3">Transform Your Living Space with Yowos Premium Furniture for a Modern Home</h2>
+                  <p>Discover stunning, high-quality jewelry at Yowos. From elegant necklaces to timeless rings, Yowos
+                    offers beautifully crafted pieces for every style and moment. Shop now and shine brighter!</p>
+                  <a href="#" class="text-decoration-none text-black">Continue Reading. . .</a>
+                  <hr>
+                  <p class="mb-5">128 <i class="fa-solid fa-eye"></i></p>
+                </div>
+              </div>
+              <!-- 7th -->
+              <div class="mt-5 mb-5">
+                <img src="assets/images/tr-7.jpg" class="img-fluid w-100" alt="error">
+                <div class="border border-light p-2 set">
+
+                  <div class="d-flex align-items-center">
+                    <img src="assets/images/con-1.png" width="45px" class="img-fluid me-2" alt="">
+                    <div class="d-flex flex-column">
+                      <p class="mb-0">Ghufran <i class="fas"></i></p>
+                      <p class="mb-0">2025-03-28 04:22:18</p>
+                    </div>
+                  </div>
+                  <h2 class="mt-3 mb-3">Experience comfortable yet fashionable baby carrying with Tushbaby products</h2>
+                  <p>Discover Tushbaby, the pediatrician-approved hip seat carrier designed for comfort, convenience,
+                    and
+                    style. Reduce back pain and make parenting easier with ergonomic baby-carrying solutions. Shop now!
+                  </p>
+                  <a href="#" class="text-decoration-none text-black">Continue Reading. . .</a>
+                  <hr>
+                  <p class="mb-5">128 <i class="fa-solid fa-eye"></i></p>
+                </div>
+              </div>
+            
+          </div>
+        </div>
+      </div>
+
+
+
+    </section>
+
+
+
+
+    <footer>
+      <section>
+        <div class="w-100 bg-black text-white set">
+          <div class="container">
+            <div class="row p-2 p-lg-0">
+
+              <div class="col-12 col-lg-4 p-2 p-lg-3">
+                <img src="assets/images/logo.png" width="200px" class="img-fluid" alt="error">
+                <h5 class="mb-2 mb-lg-4 font-set">About Us</h5>
+                <p>Fettleforum is an online website that provides you unique products. An ideal spot to discover
+                  top-of-the-line items for all: infants, kids, men, women, office workers, and older adults at low
+                  costs. We have brought everything under one roof to give you a stress-free shopping experience.</p>
+              </div>
+              <div class="col-12 col-lg-4 p-2 p-lg-3">
+                <h5 class="mt-0 mt-lg-5 mb-2 mb-lg-4 font-set">Usefull Links</h5>
+                <ul class="list-unstyled">
+                  <li class=""><a href="" class="text-light text-decoration-none">About Us</a></li>
+                  <li class=""><a href="" class="text-light text-decoration-none">Terms & Condition</a></li>
+                  <li class=""><a href="" class="text-light text-decoration-none">Privacy Policy</a></li>
+                  <li class=""><a href="" class="text-light text-decoration-none">Impressum</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg-4 p-2 p-lg-3">
+                <h5 class="mt-0 mt-lg-5 mb-2 mb-lg-4 font-set">Newsletter</h5>
+                <h6>Email*</h6>
+                <div class="">
+                  <input type="text" class="form-control rounded-0 text-center" placeholder="Email address"> </input>
+                  <button class="col-12 col-lg-12 btn btn-primary  mt-3 rounded-0">Subscribe Now</button>
+                </div>
+              </div>
+
+              <p class="text-center">© Copyright 2025, All rights reserved by Fettleforum</p>
+              <p class="text-center "> Disclosue: We may receive a commission if our readers make a purchase using our
+                links.</p>
+
+              <!-- switcher -->
+              <div class="gtranslate_wrapper"></div>
+              <!-- end -->
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <!-- <div class=""> -->
+    <div class="position-fixed bottom-0 end-0 p-3">
+      <button class="back-to-top btn btn-primary rounded-0 z-3" id="backToTop" title="Back Top Top">
+        <i class="fa fa-chevron-up"></i>
+      </button>
+    </div>
+    <!-- </div> -->
+
+  </main>
+
+
+
+
+
+
+
+  <!-- script links -->
+  <script src="https://cdn.gtranslate.net/widgets/latest/float.js" defer></script>
+  <script src="assets/Js/app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

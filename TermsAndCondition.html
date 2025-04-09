@@ -83,24 +83,34 @@
           </ul>
         </div>
         <!-- search bar -->
-        <div class=" text-white d-none d-md-block position-relative">
+          <div class=" text-white d-none d-md-block position-relative">
           | <i id="searchIcon" class=" fa-icon fa-solid fa-magnifying-glass ms-0 ms-lg-3" onclick="toggleSearch()"></i>
-          <input type="text" id="searchBar" class="box-search position-absolute bottom-2 end-0 me-5"
-            placeholder="Search..." onkeyup="showSuggestions()">
-          <div class="position-absolute end-100 top-100 h-100 d-none" id="getdata" style="width: 216px;">
-            <ul class="list-unstyled bg-black p-2">
-              <li>
-                <p class="me-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <input type="text" id="searchBar" class="box-search shadow-none p-1 position-absolute bottom-2 end-0 me-5"
+            placeholder="Search..." onkeyup="showSuggestions()" style="width: 250px;">
+          <div class="position-absolute end-100 top-100 h-100 d-none" id="getdata" style="width: 253px;">
+            <ul class="list-unstyled bg-black p-2 " style="font-size: 16px;">
+              <li class="d-flex">
+                <div class="col-3 justify-content-between">
+                  <img src="assets/images/ban-1.png" class="img-fluid" alt="load error">
+                </div>
+                <p class="me-0 ms-1" >
+                Buy the bset custom.</p>
               </li>
-              <li>
-                <p class="me-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <li class="d-flex">
+                <div class="col-3 justify-content-between">
+                  <img src="assets/images/ban-2.png" class="img-fluid" alt="load error">
+                </div>
+                <p class="me-0 ms-1" >
+              Best Home Made .</p>
               </li>
-              <li>
-                <p class="me-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <li class="d-flex">
+                <div class="col-3 justify-content-between">
+                  <img src="assets/images/ban-3.png" class="img-fluid" alt="load error">
+                </div>
+                <p class="me-0 ms-1" >
+                How to Make.</p>
               </li>
-              <li>
-                <p class="me-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              </li>
+             
             </ul>
           </div>
         </div>
@@ -294,7 +304,7 @@
         </div>
       </div>
     </section>
-
+  </main>
 
 
     <footer>
@@ -345,9 +355,6 @@
         <i class="fa fa-chevron-up"></i>
       </button>
     </div>
-  </main>
-
-
   <!-- script links -->
   <script src="https://cdn.gtranslate.net/widgets/latest/float.js" defer></script>
   <script src="assets/Js/app.js"></script>

@@ -4,8 +4,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="assets/Css/style.css">
+  <title>Home</title>
+  <meta name="title" content="Home">
+  <meta name="keywords" content="Home">
+  <meta name="description" content="Home">
+<style>
+  .img-fixed {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 966 / 505; /* Matches your dimensions */
+  display: block;
+}
+</style>
+
+  <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- test -->
@@ -95,7 +107,7 @@
             <ul class="list-unstyled bg-black p-2 " style="font-size: 16px;">
               <li class="d-flex">
                 <div class="col-3 justify-content-between">
-                  <img src="assets/images/ban-1.png" class="img-fluid" alt="load error">
+                  <img src="assets/images/ban-1.png" class="imfluid height="45"" alt="load error">
                 </div>
                 <p class="me-0 ms-1">
                   Buy the bset custom.</p>
@@ -127,17 +139,17 @@
     <section>
       <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="10000">
-            <img src="assets/images/banner-1.gif" class="d-block w-100" alt="...">
+          <div class="carousel-item active"  data-bs-interval="10000">
+            <img src="assets/images/banner-1.gif" width="1870" height="314" class="d-block h-100 w-100" alt="..." loading="eager">
           </div>
           <div class="carousel-item" data-bs-interval="2000">
-            <img src="assets/images/banner-2.gif" class="d-block w-100" alt="...">
+            <img src="assets/images/banner-2.gif" width="1870" height="314" class="d-block h-100 w-100" alt="..." loading="lazy">
           </div>
           <div class="carousel-item">
-            <img src="assets/images/banner-3.gif" class="d-block w-100" alt="...">
+            <img src="assets/images/banner-3.gif"  width="1870" height="314" class="d-block h-100 w-100" alt="..." loading="lazy">
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+        <button class="carousel-control-prev" aria-label="Previous slide" type="button" data-bs-target="#carouselExampleInterval"
           data-bs-slide="prev">
           <div class="col-3">
             <div class="ratio ratio-1x1">
@@ -150,7 +162,7 @@
             </div>
           </div>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+        <button class="carousel-control-next" aria-label="Next slide" type="button" data-bs-target="#carouselExampleInterval"
           data-bs-slide="next">
           <div class="col-3">
             <div class="ratio ratio-1x1">
@@ -174,10 +186,10 @@
             <div class="row">
               <h1 class="mt-5 mb-5 fw-bolder font-set">Latest Blogs</h1>
               <div class="col-12">
-                <img src="assets/images/ban-1.png" class="img-fluid" alt="error">
-                <div class="border border-light p-2 set">
+                <img src="assets/images/ban-1.jpg" width="966" height="505" class="img-fluid " alt="error">
+                <div class="border border-light p-4 set">
                   <div class="d-flex align-items-center">
-                    <img src="assets/images/con-1.png" width="45px" class="img-fluid me-2" alt="">
+                    <img src="assets/images/con-1.png" width="45" height="45" class="img-fluid  me-2" alt="">
                     <div class="d-flex flex-column">
                       <p class="mb-0">Ghufran</p>
                       <p class="mb-0">2025-03-28 04:22:18</p>
@@ -193,10 +205,10 @@
               </div>
               <!-- 2nd card -->
               <div class="col-12 mt-5">
-                <img src="assets/images/ban-2.png" class="img-fluid" alt="error">
-                <div class="border border-light p-2 set">
+                <img src="assets/images/ban-2.jpg" width="966" height="505" class="img-fluid" alt="error">
+                <div class="border border-light p-4 set">
                   <div class="d-flex align-items-center">
-                    <img src="assets/images/con-1.png" width="45px" class="img-fluid me-2" alt="">
+                    <img src="assets/images/con-1.png" width="45" height="45" class="img-fluid me-2" alt="">
                     <div class="d-flex flex-column">
                       <p class="mb-0">Ghufran</p>
                       <p class="mb-0">2025-03-28 04:22:18</p>
@@ -212,10 +224,10 @@
               </div>
               <!-- 3rd card -->
               <div class="col-12 mt-5">
-                <img src="assets/images/ban-3.png" class="img-fluid" alt="error">
-                <div class="border border-light p-2 set">
+                <img src="assets/images/ban-4.jpg" width="966" height="505"  class="img-fluid" alt="error">
+                <div class="border border-light p-4 set">
                   <div class="d-flex align-items-center">
-                    <img src="assets/images/con-1.png" width="45px" class="img-fluid me-2" alt="">
+                    <img src="assets/images/con-1.png" width="45" height="45" class="img-fluid me-2" alt="">
                     <div class="d-flex flex-column">
                       <p class="mb-0">Ghufran</p>
                       <p class="mb-0">2025-03-28 04:22:18</p>
@@ -232,10 +244,10 @@
               </div>
               <!-- 4th Blog -->
               <div class="col-12 mt-5">
-                <img src="assets/images/ban-4.png" class="img-fluid" alt="error">
-                <div class="border border-light p-2 set">
+                <img src="assets/images/ban-4.jpg" width="966" height="505"  class="img-fluid" alt="error">
+                <div class="border border-light p-4 set">
                   <div class="d-flex align-items-center">
-                    <img src="assets/images/con-1.png" width="45px" class="img-fluid me-2" alt="">
+                    <img src="assets/images/con-1.png" width="45" height="45" class="img-fluid me-2" alt="">
                     <div class="d-flex flex-column">
                       <p class="mb-0">Ghufran</p>
                       <p class="mb-0">2025-03-28 04:22:18</p>
@@ -253,10 +265,10 @@
               </div>
               <!-- 5th Blog -->
               <div class="col-12 mt-5">
-                <img src="assets/images/ban-5.png" class="img-fluid" alt="error">
-                <div class="border border-light p-2 set">
+                <img src="assets/images/ban-5.jpg" width="966" height="505"  class="img-fluid" alt="error">
+                <div class="border border-light p-4 set">
                   <div class="d-flex align-items-center">
-                    <img src="assets/images/con-1.png" width="45px" class="img-fluid me-2" alt="">
+                    <img src="assets/images/con-1.png" width="45" height="45" class="img-fluid me-2" alt="">
                     <div class="d-flex flex-column">
                       <p class="mb-0">Ghufran</p>
                       <p class="mb-0">2025-03-28 04:22:18</p>
@@ -272,11 +284,11 @@
               </div>
               <!-- 6th Blog -->
               <div class="col-12 mt-5">
-                <img src="assets/images/ban-6.png" class="img-fluid" alt="error">
-                <div class="border border-light p-2 set">
+                <img src="assets/images/ban-6.jpg" width="966" height="505"  class="img-fluid" alt="error">
+                <div class="border border-light p-4 set">
 
                   <div class="d-flex align-items-center">
-                    <img src="assets/images/con-1.png" width="45px" class="img-fluid me-2" alt="">
+                    <img src="assets/images/con-1.png" width="45" height="45" class="img-fluid me-2" alt="">
                     <div class="d-flex flex-column">
                       <p class="mb-0">Ghufran</p>
                       <p class="mb-0">2025-03-28 04:22:18</p>
@@ -292,11 +304,11 @@
               </div>
               <!-- 7th Blog -->
               <div class="col-lg-12 mt-5">
-                <img src="assets/images/ban-7.png" class="img-fluid" alt="error">
-                <div class="border border-light p-2 set">
+                <img src="assets/images/ban-7.jpg" width="966" height="505"  class="img-fluid" alt="error">
+                <div class="border border-light p-4 set">
 
                   <div class="d-flex align-items-center">
-                    <img src="assets/images/con-1.png" width="45px" class="img-fluid me-2" alt="">
+                    <img src="assets/images/con-1.png" width="45" height="45" class="img-fluid me-2" alt="">
                     <div class="d-flex flex-column">
                       <p class="mb-0">Ghufran</p>
                       <p class="mb-0">2025-03-28 04:22:18</p>
@@ -313,10 +325,10 @@
               </div>
               <!-- 8th Blog -->
               <div class="col-lg-12 mt-5 mb-5">
-                <img src="assets/images/ban-8.png" class="img-fluid" alt="error">
-                <div class="border border-light p-2 set">
+                <img src="assets/images/ban-8.jpg" width="966" height="505"  class="img-fluid" alt="error">
+                <div class="border border-light p-4 set">
                   <div class="d-flex align-items-center">
-                    <img src="assets/images/con-1.png" width="45px" class="img-fluid me-2" alt="">
+                    <img src="assets/images/con-1.png" width="45" height="45" class="img-fluid me-2" alt="">
                     <div class="d-flex flex-column">
                       <p class="mb-0">Ghufran</p>
                       <p class="mb-0">2025-03-28 04:22:18</p>
@@ -353,15 +365,15 @@
         <div class="container">
           <div class="row p-2 p-lg-0">
 
-            <div class="col-12 col-lg-4 p-2 p-lg-3">
+            <div class="col-12 col-lg-5 p-2 p-lg-3">
               <img src="assets/images/logo.png" width="200px" class="img-fluid" alt="error">
-              <h5 class="mb-2 mb-lg-4 font-set">About Us</h5>
-              <p>Fettleforum is an online website that provides you unique products. An ideal spot to discover
+              <h1 class="mb-2 mb-lg-4 font-set fs-5">About Us</h1>
+              <p class="col-lg-10 col-12">Fettleforum is an online website that provides you unique products. An ideal spot to discover
                 top-of-the-line items for all: infants, kids, men, women, office workers, and older adults at low
                 costs. We have brought everything under one roof to give you a stress-free shopping experience.</p>
             </div>
-            <div class="col-12 col-lg-4 p-2 p-lg-3">
-              <h5 class="mt-0 mt-lg-5 mb-2 mb-lg-4 font-set">Usefull Links</h5>
+            <div class="col-12 col-lg-3 p-2 p-lg-3">
+              <h2 class="mt-0 mt-lg-5 mb-2 mb-lg-4 font-set fs-5">Usefull Links</h2>
               <ul class="list-unstyled">
                 <li class=""><a href="" class="text-light text-decoration-none">About Us</a></li>
                 <li class=""><a href="" class="text-light text-decoration-none">Terms & Condition</a></li>
@@ -370,8 +382,8 @@
               </ul>
             </div>
             <div class="col-12 col-lg-4 p-2 p-lg-3">
-              <h5 class="mt-0 mt-lg-5 mb-2 mb-lg-4 font-set">Newsletter</h5>
-              <h6>Email*</h6>
+              <h3 class="mt-0 mt-lg-5 mb-2 mb-lg-4 font-set fs-4">Newsletter</h3>
+              <h3 class="fs-6">Email*</h3>
               <div class="">
                 <input type="text" class="form-control rounded-0 text-center" placeholder="Email address"> </input>
                 <button class="col-12 col-lg-12 btn btn-primary  mt-3 rounded-0">Subscribe Now</button>
@@ -390,13 +402,48 @@
       </div>
     </section>
   </footer>
-  <!-- <div class=""> -->
-  <div class="position-fixed bottom-0 end-0 p-3">
+
+  <!-- modal -->
+
+     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="false">
+       <div class="modal-dialog modal-dialog-centered modal-lg"> <!-- Increased width using modal-lg -->
+         <div class="modal-content">
+           <div class="modal-header bg-black border-0" >
+             <button type="button" class="btn-close bg-light" data-bs-dismiss="modal" aria-label="Close"></button>
+           </div>
+           <div class="modal-body px-4 text-center bg-black " style="background-color: #e5e5e5;">
+             <h3 class="fs-2 text-light text-uppercase">Stay in the loop with Fettleforum</h3>
+             <p class="fs-5 text-light  text-uppercase">Signup Now for top notch shopping  advice</p>
+     
+               <!-- Input Container -->
+               <div class="input-container position-relative  mb-4 mt-3">
+                <input type="email" class="form-control p-2 set-cookie rounded-pill pe-5" 
+                        placeholder="Your Email Address">
+                <button class="subscribe-btn btn-cookie">SUBSCRIBE</button>
+              </div>
+              
+     
+           </div>
+         </div>
+       </div>
+     </div>
+<!-- cookie section -->
+<div class="z-1  position-fixed me-4 end-0 border border-secondary-subtle bg-white rounded-4 p-4 p-lg-5" id="cookie-vookie" style="top: 66%; width: 18rem;" >
+  <p class="text-secondary fs-6">🍪 We use cookies to ensure our website functions properly and to provide you with a personalized experience.</p>
+  <div class="justify-content-center d-flex ms-5 ">
+    <button class="border-0 bg-white text-black" id="button-cookie-two" onclick="hidealert()">REJECT</button>
+    <button class="mx-4 btn btn text-white fw-bold" id="button-cookie" onclick="hidealert()" style="background-color: #28a745;">ACCEPT</button>
+
+  </div>
+</div>
+
+  
+ <div class="position-fixed bottom-0 end-0 p-3">
     <button class="back-to-top btn btn-primary rounded-0 z-3" id="backToTop" title="Back Top Top">
       <i class="fa fa-chevron-up"></i>
     </button>
   </div>
-  <!-- </div> -->
+ 
 
 
 
@@ -408,7 +455,7 @@
 
   <!-- script links -->
   <script src="https://cdn.gtranslate.net/widgets/latest/float.js" defer></script>
-  <script src="assets/Js/app.js"></script>
+  <script src="assets/js/app.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
